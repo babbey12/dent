@@ -7,7 +7,7 @@
   "scripts": {
     "dev": "vite dev",
     "build": "vite build",
-    "postbuild": "node -e \"fs.cpSync('dist/server/server.js', 'dist/client/_worker.js'); fs.rmSync('.wrangler', { recursive: true, force: true })\"",
+    "postbuild": "node -e \"fs.cpSync('dist/server/server.js', 'dist/client/_worker.js'); fs.cpSync('dist/server/assets', 'dist/client/assets', { recursive: true }); fs.rmSync('.wrangler', { recursive: true, force: true })\"",
     "build:dev": "vite build --mode development",
     "preview": "vite preview",
     "lint": "eslint .",
