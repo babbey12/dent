@@ -3,7 +3,12 @@
   "name": "nejashi-care-dental",
   "compatibility_date": "2025-09-24",
   "compatibility_flags": ["nodejs_compat"],
-  "pages_build_output_dir": ".output/public",
+  "pages_build_output_dir": "dist/client",
+  "main": "src/server.ts",
+  "assets": {
+    "directory": "dist/client",
+    "binding": "STATIC_ASSETS"
+  },
   "ai": {
     "binding": "AI"
   }
