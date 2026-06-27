@@ -6,8 +6,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite dev",
-    "build": "vite build",
-    "postbuild": "echo \"{}\" > dist/client/wrangler.json",
+    "build": "NITRO_PRESET=cloudflare-pages vite build",
+    "postbuild": "rm -rf .wrangler",
     "build:dev": "vite build --mode development",
     "preview": "vite preview",
     "lint": "eslint .",
