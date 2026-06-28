@@ -12,4 +12,23 @@ export default defineConfig({
   tanstackStart: {
     server: { entry: "server" },
   },
+  vite: {
+    resolve: {
+      alias: {
+        // Map bare Node.js built-in modules to node:* prefix for Cloudflare Workers runtime compatibility
+        buffer: "node:buffer",
+        stream: "node:stream",
+        util: "node:util",
+        crypto: "node:crypto",
+        events: "node:events",
+        path: "node:path",
+        http: "node:http",
+        url: "node:url",
+        fs: "node:fs",
+        os: "node:os",
+        net: "node:net",
+        tls: "node:tls",
+      },
+    },
+  },
 });
