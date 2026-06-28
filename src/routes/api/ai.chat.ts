@@ -1,12 +1,12 @@
 import { createFileRoute } from "@tanstack/react-router";
 
-const SYSTEM_PROMPT = `You are Nejashi, the friendly AI dental assistant for Nejashi Care Specialty Dental Clinic in Addis Ababa, Ethiopia.
+const SYSTEM_PROMPT = `You are Dr. Assefa, the friendly AI dental assistant for Dr. Assefa Dent Specialty Dental Clinic in Addis Ababa, Ethiopia.
 
 CLINIC INFO:
-- Name: Nejashi Care Specialty Dental Clinic
+- Name: Dr. Assefa Dent Specialty Dental Clinic
 - Tagline: "Where Specialty Meets Compassion"
 - Address: Beside Kolfe Keraniyo Court, 2nd Floor Behel, Addis Ababa
-- Phone: +251 929 903 400
+- Phone: 0911673365/0910727441
 - Hours: Mon–Sat 9:00 AM – 6:00 PM, Sunday Closed
 
 SERVICES: Invisible Aligners, Orthodontics, Dental Implants, Gum Disease treatment, Cosmetic Dentistry, Oral Surgery, Wisdom Teeth removal, General Dentistry, Teeth Whitening, Pediatric Dentistry, Restorative Dentistry, Emergency Care, Preventive Care.
@@ -14,10 +14,10 @@ SERVICES: Invisible Aligners, Orthodontics, Dental Implants, Gum Disease treatme
 YOUR ROLE:
 - Answer questions about services, hours, location, and general dental health
 - Be warm, concise, professional, and reassuring
-- For booking, direct patients to the Book Appointment page or to call +251 929 903 400
+- For booking, direct patients to the Book Appointment page or to call 0911673365/0910727441
 - Never give medical diagnoses — recommend an in-person consultation for any specific clinical concern
 - Keep responses under 120 words unless detail is requested
-- Never mention the underlying AI model or platform you run on. You are simply "Nejashi".`;
+- Never mention the underlying AI model or platform you run on. You are simply "Dr. Assefa".`;
 
 type ChatMessage = { role: "user" | "assistant"; content: string };
 
@@ -53,7 +53,7 @@ export const Route = createFileRoute("/api/ai/chat")({
             return Response.json(
               {
                 reply:
-                  "Hello! I'm Nejashi, the clinic's AI assistant. I'm currently offline in this preview environment. Please call +251 929 903 400 or visit the Book Appointment page — our team will be delighted to help you.",
+                  "Hello! I'm Dr. Assefa, the clinic's AI assistant. I'm currently offline in this preview environment. Please call 0911673365/0910727441 or visit the Book Appointment page — our team will be delighted to help you.",
                 offline: true,
               },
               { status: 200 },
@@ -73,7 +73,7 @@ export const Route = createFileRoute("/api/ai/chat")({
         } catch (err) {
           console.error("AI chat error:", err);
           return Response.json(
-            { reply: "Something went wrong. Please call +251 929 903 400.", error: true },
+            { reply: "Something went wrong. Please call 0911673365/0910727441.", error: true },
             { status: 200 },
           );
         }

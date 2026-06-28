@@ -16,7 +16,7 @@ import { Footer } from "@/components/Footer";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Nejashi Care — Specialty Dental Clinic in Addis Ababa" },
+      { title: "Dr. Assefa Dent — Specialty Dental Clinic in Addis Ababa" },
       { name: "description", content: "Where Specialty Meets Compassion. Book your appointment with our specialist team in Addis Ababa." },
     ],
   }),

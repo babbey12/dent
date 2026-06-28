@@ -8,11 +8,11 @@ import { SERVICES } from "@/data/services";
 export const Route = createFileRoute("/appointment")({
   head: () => ({
     meta: [
-      { title: "Book an Appointment — Nejashi Care Specialty Dental Clinic" },
+      { title: "Book an Appointment — Dr. Assefa Dent Specialty Dental Clinic" },
       {
         name: "description",
         content:
-          "Book your specialist dental appointment at Nejashi Care, beside Kolfe Keraniyo Court, Addis Ababa. Same-week slots available.",
+          "Book your specialist dental appointment at Dr. Assefa Dent, beside Kolfe Keraniyo Court, Addis Ababa. Same-week slots available.",
       },
     ],
   }),
@@ -253,7 +253,7 @@ function AppointmentPage() {
                         value={form.phone}
                         onChange={(e) => update("phone", e.target.value)}
                         required
-                        placeholder="+251 9XX XXX XXX"
+                        placeholder="0911 673 365"
                         className="w-full bg-[#F8FAFC] border border-[#0EA5E9]/20 rounded-xl px-4 py-3 font-body focus:outline-none focus:ring-2 focus:ring-[#0EA5E9]/40"
                       />
                     </div>

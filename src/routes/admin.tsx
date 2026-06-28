@@ -6,7 +6,7 @@ import { PageShell } from "@/components/PageShell";
 export const Route = createFileRoute("/admin")({
   head: () => ({
     meta: [
-      { title: "Admin — Nejashi Care" },
+      { title: "Admin — Dr. Assefa Dent" },
       { name: "robots", content: "noindex, nofollow" },
     ],
   }),
@@ -146,7 +146,7 @@ function AdminPage() {
           </div>
 
           <p className="mt-8 text-center font-body text-xs text-[#1A1A2E]/40">
-            Demo dashboard. Nejashi Care Specialty Dental Clinic.
+            Demo dashboard. Dr. Assefa Dent Specialty Dental Clinic.
           </p>
         </div>
       </main>

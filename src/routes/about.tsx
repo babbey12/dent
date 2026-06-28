@@ -6,9 +6,9 @@ import { Footer } from "@/components/Footer";
 export const Route = createFileRoute("/about")({
   head: () => ({
     meta: [
-      { title: "About Nejashi Care — Specialty Dental Clinic in Addis Ababa" },
-      { name: "description", content: "Learn about Nejashi Care: our mission, values, and team of specialty dentists serving Addis Ababa with compassion." },
-      { property: "og:title", content: "About Nejashi Care" },
+      { title: "About Dr. Assefa Dent — Specialty Dental Clinic in Addis Ababa" },
+      { name: "description", content: "Learn about Dr. Assefa Dent: our mission, values, and team of specialty dentists serving Addis Ababa with compassion." },
+      { property: "og:title", content: "About Dr. Assefa Dent" },
       { property: "og:description", content: "Where Specialty Meets Compassion." },
     ],
   }),
@@ -23,10 +23,10 @@ const VALUES = [
 ];
 
 const MILESTONES = [
-  { year: "2018", title: "Founded", text: "Nejashi Care opens beside Kolfe Keraniyo Court, Addis Ababa." },
+  { year: "2018", title: "Founded", text: "Dr. Assefa Dent opens beside Kolfe Keraniyo Court, Addis Ababa." },
   { year: "2020", title: "Specialist Team", text: "Welcomed orthodontists, periodontists and oral surgeons." },
   { year: "2022", title: "10,000 Patients", text: "Crossed 10,000 lifetime patient visits with 99% satisfaction." },
-  { year: "2025", title: "AI-Powered Care", text: "Launched AI-assisted diagnostics and patient assistant Nejashi." },
+  { year: "2025", title: "AI-Powered Care", text: "Launched AI-assisted diagnostics and patient assistant Dr. Assefa." },
 ];
 
 function AboutPage() {
@@ -44,7 +44,7 @@ function AboutPage() {
               Where Specialty<br />Meets Compassion
             </motion.h1>
             <motion.p initial={{ opacity: 0, y: 16 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.2 }} className="mt-6 max-w-2xl font-body text-lg text-white/70">
-              Nejashi Care is Addis Ababa's destination for specialty dentistry — a clinic built around board-certified specialists, modern technology, and the belief that every patient deserves to feel cared for.
+              Dr. Assefa Dent is Addis Ababa's destination for specialty dentistry — a clinic built around board-certified specialists, modern technology, and the belief that every patient deserves to feel cared for.
             </motion.p>
           </div>
         </section>
@@ -59,7 +59,7 @@ function AboutPage() {
               </h2>
               <div className="mt-6 space-y-4 font-body text-lg leading-relaxed text-[#1A1A2E]/70">
                 <p>
-                  We founded Nejashi Care to fill a gap in Ethiopian dental care: world-class specialty treatment delivered with the warmth of a family practice.
+                  We founded Dr. Assefa Dent to fill a gap in Ethiopian dental care: world-class specialty treatment delivered with the warmth of a family practice.
                 </p>
                 <p>
                   Our team includes orthodontists, periodontists, prosthodontists, oral surgeons and pediatric specialists — all working under one roof so you never have to be referred elsewhere for complex care.
