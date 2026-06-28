@@ -2,12 +2,15 @@
   "name": "nejashi-care-dental-clinic",
   "author": "ebuildtech",
   "private": true,
-  "sideEffects": true,
+  "sideEffects": [
+    "**/*.css",
+    "**/*.scss"
+  ],
   "type": "module",
   "scripts": {
     "dev": "vite dev",
     "build": "vite build",
-    "postbuild": "node -e \"fs.cpSync('dist/server/server.js', 'dist/client/_worker.js'); fs.cpSync('dist/server/server.js', 'dist/client/server.js'); fs.cpSync('dist/server/assets', 'dist/client/assets', { recursive: true }); fs.writeFileSync('dist/client/_routes.json', JSON.stringify({ version: 1, include: ['/*'], exclude: ['/assets/*'] })); fs.rmSync('.wrangler', { recursive: true, force: true })\"",
+    "postbuild": "node -e \"fs.cpSync('dist/server', 'dist/client', { recursive: true }); fs.cpSync('dist/server/server.js', 'dist/client/_worker.js'); fs.writeFileSync('dist/client/_routes.json', JSON.stringify({ version: 1, include: ['/*'], exclude: ['/assets/*'] })); fs.rmSync('.wrangler', { recursive: true, force: true })\"",
     "build:dev": "vite build --mode development",
     "preview": "vite preview",
     "lint": "eslint .",
