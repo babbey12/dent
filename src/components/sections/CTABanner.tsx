@@ -62,10 +62,10 @@ export function CTABanner() {
             <span className="group-hover:translate-x-1 transition-transform">→</span>
           </Link>
           <a
-            href="tel:+251929903400"
+            href="tel:+251911673365"
             className="font-sub font-semibold text-white border-2 border-white/40 hover:bg-white/10 hover:border-white rounded-full px-8 py-4 transition-all duration-300 inline-flex items-center gap-2"
           >
-            <span>📞</span> +251 929 903 400
+            <span>📞</span> +251 911 673 365 / 0910 727 441
           </a>
         </motion.div>
       </div>

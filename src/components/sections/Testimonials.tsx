@@ -27,7 +27,7 @@ const TESTIMONIALS: Testimonial[] = [
   {
     name: "Helen Girma",
     role: "Cosmetic Dentistry",
-    text: "Truly world-class. The clinic feels like a five-star spa, and Dr. Nejashi's attention to aesthetics is extraordinary.",
+    text: "Truly world-class. The clinic feels like a five-star spa, and Dr. Assefa's attention to aesthetics is extraordinary.",
     rating: 5,
     initial: "H",
   },

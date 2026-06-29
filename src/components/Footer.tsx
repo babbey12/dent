@@ -33,9 +33,9 @@ export function Footer() {
           <div className="lg:col-span-1">
             <div className="flex items-center gap-3 mb-4">
               <span className="font-display text-base font-bold tracking-[0.18em] text-white">
-                NEJASHI DENTAL
+                DR. ASSEFA DENT
               </span>
-              <img src={LOGO_URL} alt="Nejashi Care" className="h-11 w-auto" />
+              <img src={LOGO_URL} alt="Dr. Assefa Dent" className="h-11 w-auto" />
             </div>
             <p className="font-body text-sm text-white/70 leading-relaxed mb-6">
               Where Specialty Meets Compassion. Premium specialty dentistry in the heart of Addis Ababa.
@@ -108,8 +108,8 @@ export function Footer() {
               </li>
               <li className="flex gap-3">
                 <span className="text-[#0EA5E9] shrink-0">📞</span>
-                <a href="tel:+251929903400" className="hover:text-[#0EA5E9] transition-colors">
-                  +251 929 903 400
+                <a href="tel:+251911673365" className="hover:text-[#0EA5E9] transition-colors">
+                  +251 911 673 365 / 0910 727 441
                 </a>
               </li>
               <li className="flex gap-3">
@@ -125,7 +125,7 @@ export function Footer() {
 
         <div className="pt-8 border-t border-white/10 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="font-body text-xs text-white/50">
-            © {new Date().getFullYear()} Nejashi Care Specialty Dental Clinic. All rights reserved.
+            © {new Date().getFullYear()} Dr. Assefa Dent. All rights reserved.
           </p>
           <div className="flex gap-6 font-body text-xs text-white/50">
             <a href="#" className="hover:text-[#0EA5E9] transition-colors">Privacy Policy</a>

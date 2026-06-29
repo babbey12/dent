@@ -13,13 +13,13 @@ export type Doctor = {
 
 export const DOCTORS: Doctor[] = [
   {
-    name: "Dr. Nejashi Haile",
+    name: "Dr. Assefa Haile",
     role: "Lead Specialist & Founder",
     specialty: "Restorative & Cosmetic Dentistry",
     years: "15+ years",
-    bio: "Founder of Nejashi Care. Smile design and full-mouth restoration specialist.",
+    bio: "Founder of Dr. Assefa Dent. Smile design and full-mouth restoration specialist.",
     tags: ["Cosmetic", "Restorative", "Smile Design"],
-    initials: "NH",
+    initials: "AH",
   },
   {
     name: "Dr. Mekdes Alemu",

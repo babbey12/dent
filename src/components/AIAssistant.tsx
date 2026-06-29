@@ -15,7 +15,7 @@ const SUGGESTIONS = [
 const GREETING: Msg = {
   role: "assistant",
   content:
-    "Hi, I'm Nejashi 👋 — your AI dental assistant. Ask me about our services, hours, or how to book an appointment.",
+    "Hi, I'm Dr. Assefa 👋 — your AI dental assistant. Ask me about our services, hours, or how to book an appointment.",
 };
 
 export function AIAssistant() {
@@ -50,7 +50,7 @@ export function AIAssistant() {
     } catch {
       setMessages((m) => [
         ...m,
-        { role: "assistant", content: "Connection issue. Please call +251 929 903 400." },
+        { role: "assistant", content: "Connection issue. Please call +251 911 673 365 / 0910 727 441." },
       ]);
     } finally {
       setLoading(false);
@@ -65,7 +65,7 @@ export function AIAssistant() {
         animate={{ scale: 1, opacity: 1 }}
         transition={{ delay: 1.2, type: "spring", stiffness: 200 }}
         onClick={() => setOpen((o) => !o)}
-        aria-label="Open Nejashi AI assistant"
+        aria-label="Open Dr. Assefa AI assistant"
         className="fixed bottom-6 right-6 z-[60] w-16 h-16 rounded-full bg-gradient-to-br from-[#0EA5E9] to-[#0284C7] shadow-2xl shadow-[#0EA5E9]/40 flex items-center justify-center group hover:scale-110 transition-transform"
       >
         <span className="absolute inset-0 rounded-full bg-[#0EA5E9] animate-ping opacity-20" />
@@ -92,10 +92,10 @@ export function AIAssistant() {
             {/* Header */}
             <div className="bg-gradient-to-br from-[#0A0F1E] to-[#1E293B] p-5 flex items-center gap-3">
               <div className="relative w-11 h-11 rounded-full bg-white/10 flex items-center justify-center overflow-hidden border border-[#0EA5E9]/40">
-                <img src={LOGO_URL} alt="Nejashi" className="w-8 h-8 object-contain" />
+                <img src={LOGO_URL} alt="Dr. Assefa" className="w-8 h-8 object-contain" />
               </div>
               <div>
-                <p className="font-display text-white text-lg leading-none">Nejashi</p>
+                <p className="font-display text-white text-lg leading-none">Dr. Assefa</p>
                 <p className="font-body text-xs text-[#0EA5E9] flex items-center gap-1.5 mt-1">
                   <span className="w-2 h-2 rounded-full bg-[#0EA5E9] animate-pulse" />
                   AI Dental Assistant
@@ -163,7 +163,7 @@ export function AIAssistant() {
               <input
                 value={input}
                 onChange={(e) => setInput(e.target.value)}
-                placeholder="Ask Nejashi anything..."
+                placeholder="Ask Dr. Assefa anything..."
                 className="flex-1 bg-[#F8FAFC] border border-[#0EA5E9]/20 rounded-full px-4 py-2.5 font-body text-sm focus:outline-none focus:ring-2 focus:ring-[#0EA5E9]/40"
               />
               <button
