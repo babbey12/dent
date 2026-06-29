@@ -23,7 +23,7 @@ const VALUES = [
 ];
 
 const MILESTONES = [
-  { year: "2018", title: "Founded", text: "Dr. Assefa Dent opens beside Kolfe Keraniyo Court, Addis Ababa." },
+  { year: "2018", title: "Founded", text: "Dr. Assefa Dent opens Addis Ababa." },
   { year: "2020", title: "Specialist Team", text: "Welcomed orthodontists, periodontists and oral surgeons." },
   { year: "2022", title: "10,000 Patients", text: "Crossed 10,000 lifetime patient visits with 99% satisfaction." },
   { year: "2025", title: "AI-Powered Care", text: "Launched AI-assisted diagnostics and patient assistant Dr. Assefa." },

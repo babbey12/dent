@@ -5,7 +5,7 @@ const SYSTEM_PROMPT = `You are Dr. Assefa, the friendly AI dental assistant for 
 CLINIC INFO:
 - Name: Dr. Assefa Dent Specialty Dental Clinic
 - Tagline: "Where Specialty Meets Compassion"
-- Address: Beside Kolfe Keraniyo Court, 2nd Floor Behel, Addis Ababa
+- Address: Addis Ababa, Ethiopia
 - Phone: 0911673365/0910727441
 - Hours: Mon–Sat 9:00 AM – 6:00 PM, Sunday Closed
 

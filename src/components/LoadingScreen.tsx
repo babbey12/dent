@@ -48,7 +48,7 @@ export function LoadingScreen() {
               transition={{ type: "spring", stiffness: 180, damping: 18 }}
               src={LOGO}
               alt="Dr. Assefa Dent"
-              className="relative h-24 w-auto"
+              className="relative h-24 w-auto pb-4"
             />
           </div>
           <p className="font-sub mt-8 text-sm uppercase tracking-[0.2em] text-[#0EA5E9] nc-typing-cursor">

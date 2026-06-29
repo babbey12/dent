@@ -35,7 +35,7 @@ export function Footer() {
               <span className="font-display text-base font-bold tracking-[0.18em] text-white">
                 DR. ASSEFA DENT
               </span>
-              <img src={LOGO_URL} alt="Dr. Assefa Dent" className="h-11 w-auto" />
+              <img src={LOGO_URL} alt="Dr. Assefa Dent" className="h-11 w-auto pb-2" />
             </div>
             <p className="font-body text-sm text-white/70 leading-relaxed mb-6">
               Where Specialty Meets Compassion. Premium specialty dentistry in the heart of Addis Ababa.
@@ -101,8 +101,6 @@ export function Footer() {
               <li className="flex gap-3">
                 <span className="text-[#0EA5E9] shrink-0">📍</span>
                 <span>
-                  Beside Kolfe Keraniyo Court,<br />
-                  2nd Floor Behel,<br />
                   Addis Ababa, Ethiopia
                 </span>
               </li>

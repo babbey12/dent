@@ -4,7 +4,7 @@ import { useEffect, useMemo, useState } from "react";
 
 const HERO_BG = "https://images.unsplash.com/photo-1629909615184-74f495363b67?auto=format&fit=crop&w=2000&q=80";
 const HEADLINE = ["Where", "Specialty", "Meets", "Compassion"];
-const SUBTITLE = "Advanced specialty dentistry beside Kolfe Keraniyo Court, Addis Ababa";
+const SUBTITLE = "Advanced specialty dentistry Addis Ababa, Ethiopia";
 
 function Particles() {
   const [mounted, setMounted] = useState(false);

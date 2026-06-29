@@ -36,7 +36,7 @@ export function Navbar() {
           <span className="font-display text-base font-bold tracking-[0.18em] text-white md:text-lg group-hover:text-[#38BDF8] transition-colors">
             DR. ASSEFA DENT
           </span>
-          <img src={LOGO} alt="Dr. Assefa Dent" style={{ height: 52 }} className="w-auto transform group-hover:scale-105 transition-transform duration-300" />
+          <img src={LOGO} alt="Dr. Assefa Dent" style={{ height: 40, marginLeft: 8, paddingBottom: 6 }} className="w-auto transform group-hover:scale-105 transition-transform duration-300" />
         </Link>
 
         <nav className="hidden items-center gap-8 lg:flex">
