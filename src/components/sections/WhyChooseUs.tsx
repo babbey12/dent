@@ -4,7 +4,7 @@ const features = [
   { emoji: "🏆", title: "Award-Winning Specialists", desc: "Six certified specialists with combined decades of experience." },
   { emoji: "🦷", title: "Advanced Equipment", desc: "Digital imaging, laser tools and modern sterilisation systems." },
   { emoji: "🌟", title: "Smart & Seamless Patient Care", desc: "Online appointment scheduling and direct communication with specialists, 24/7." },
-  { emoji: "📍", title: "Prime Addis Ababa Location", desc: "Beside Kolfe Keraniyo Court, easy to reach from anywhere." },
+  { emoji: "📍", title: "Prime Addis Ababa Location", desc: "Conveniently located in Addis Ababa, Ethiopia, easy to reach from anywhere." },
   { emoji: "💳", title: "Flexible Payment Options", desc: "Transparent pricing and convenient payment plans." },
   { emoji: "🚨", title: "Emergency Same-Day Care", desc: "Urgent slots reserved every day for dental emergencies." },
 ];

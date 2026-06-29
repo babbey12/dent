@@ -45,7 +45,7 @@ export function CTABanner() {
           transition={{ duration: 0.5, delay: 0.25 }}
           className="font-body text-lg md:text-xl text-white/85 max-w-2xl mx-auto mb-10"
         >
-          Book a consultation with our specialist team. Same-week appointments available beside Kolfe Keraniyo Court.
+          Book a consultation with our specialist team. Same-week appointments available in Addis Ababa, Ethiopia.
         </motion.p>
         <motion.div
           initial={{ opacity: 0, y: 20 }}

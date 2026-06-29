@@ -101,8 +101,6 @@ export function Footer() {
               <li className="flex gap-3">
                 <span className="text-[#0EA5E9] shrink-0">📍</span>
                 <span>
-                  Beside Kolfe Keraniyo Court,<br />
-                  2nd Floor Behel,<br />
                   Addis Ababa, Ethiopia
                 </span>
               </li>
