@@ -7,9 +7,9 @@ import { Footer } from "@/components/Footer";
 export const Route = createFileRoute("/gallery")({
   head: () => ({
     meta: [
-      { title: "Smile Gallery — Nejashi Care Before & After" },
-      { name: "description", content: "Before & after smile transformations and clinic photos from Nejashi Care Specialty Dental Clinic, Addis Ababa." },
-      { property: "og:title", content: "Smile Gallery — Nejashi Care" },
+      { title: "Smile Gallery — Dr. Assefa Dent Before & After" },
+      { name: "description", content: "Before & after smile transformations and clinic photos from Dr. Assefa Dent, Addis Ababa." },
+      { property: "og:title", content: "Smile Gallery — Dr. Assefa Dent" },
       { property: "og:description", content: "See real patient transformations and our modern clinic." },
     ],
     links: [{ rel: "canonical", href: "/gallery" }],

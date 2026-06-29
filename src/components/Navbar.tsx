@@ -34,9 +34,9 @@ export function Navbar() {
       <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-2">
         <Link to="/" className="flex items-center gap-3 group">
           <span className="font-display text-base font-bold tracking-[0.18em] text-white md:text-lg group-hover:text-[#38BDF8] transition-colors">
-            NEJASHI DENTAL
+            DR. ASSEFA DENT
           </span>
-          <img src={LOGO} alt="Nejashi Care" style={{ height: 52 }} className="w-auto transform group-hover:scale-105 transition-transform duration-300" />
+          <img src={LOGO} alt="Dr. Assefa Dent" style={{ height: 52 }} className="w-auto transform group-hover:scale-105 transition-transform duration-300" />
         </Link>
 
         <nav className="hidden items-center gap-8 lg:flex">

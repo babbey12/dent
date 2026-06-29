@@ -8,11 +8,11 @@ import { SERVICES } from "@/data/services";
 export const Route = createFileRoute("/appointment")({
   head: () => ({
     meta: [
-      { title: "Book an Appointment — Nejashi Care Specialty Dental Clinic" },
+      { title: "Book an Appointment — Dr. Assefa Dent" },
       {
         name: "description",
         content:
-          "Book your specialist dental appointment at Nejashi Care, beside Kolfe Keraniyo Court, Addis Ababa. Same-week slots available.",
+          "Book your specialist dental appointment at Dr. Assefa Dent, beside Kolfe Keraniyo Court, Addis Ababa. Same-week slots available.",
       },
     ],
   }),

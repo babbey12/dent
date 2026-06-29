@@ -7,9 +7,9 @@ import { SERVICES } from "@/data/services";
 export const Route = createFileRoute("/services")({
   head: () => ({
     meta: [
-      { title: "Specialty Dental Services — Nejashi Care, Addis Ababa" },
-      { name: "description", content: "Explore 13+ specialty dental services at Nejashi Care: implants, aligners, orthodontics, cosmetic dentistry, oral surgery and more." },
-      { property: "og:title", content: "Specialty Dental Services — Nejashi Care" },
+      { title: "Specialty Dental Services — Dr. Assefa Dent, Addis Ababa" },
+      { name: "description", content: "Explore 13+ specialty dental services at Dr. Assefa Dent: implants, aligners, orthodontics, cosmetic dentistry, oral surgery and more." },
+      { property: "og:title", content: "Specialty Dental Services — Dr. Assefa Dent" },
       { property: "og:description", content: "13+ specialty services delivered by certified specialists in Addis Ababa." },
     ],
   }),

@@ -47,7 +47,7 @@ export function LoadingScreen() {
               animate={{ scale: 1, opacity: 1 }}
               transition={{ type: "spring", stiffness: 180, damping: 18 }}
               src={LOGO}
-              alt="Nejashi Care"
+              alt="Dr. Assefa Dent"
               className="relative h-24 w-auto"
             />
           </div>

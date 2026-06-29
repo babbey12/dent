@@ -12,12 +12,12 @@ export const Route = createFileRoute("/services/$slug")({
   },
   head: ({ loaderData }) => {
     const s = loaderData?.service;
-    if (!s) return { meta: [{ title: "Service — Nejashi Care" }] };
+    if (!s) return { meta: [{ title: "Service — Dr. Assefa Dent" }] };
     return {
       meta: [
-        { title: `${s.name} — Nejashi Care Specialty Dental Clinic` },
+        { title: `${s.name} — Dr. Assefa Dent` },
         { name: "description", content: s.short },
-        { property: "og:title", content: `${s.name} — Nejashi Care` },
+        { property: "og:title", content: `${s.name} — Dr. Assefa Dent` },
         { property: "og:description", content: s.short },
         { property: "og:image", content: s.image },
         { name: "twitter:image", content: s.image },
@@ -118,7 +118,7 @@ function ServiceDetailPage() {
             </h2>
             <div className="mt-6 space-y-4 font-body text-lg leading-relaxed text-[#1A1A2E]/70">
               <p>
-                At Nejashi Care, our {service.name.toLowerCase()} is delivered by specialists who have dedicated their careers to mastering this discipline. {service.short}
+                At Dr. Assefa Dent, our {service.name.toLowerCase()} is delivered by specialists who have dedicated their careers to mastering this discipline. {service.short}
               </p>
               <p>
                 Every treatment plan begins with a thorough diagnostic process and an honest conversation about your goals, concerns and budget. We believe great dentistry starts with great listening.

@@ -144,7 +144,7 @@ export function Hero() {
           transition={{ delay: 0.6 + headlineDuration + (SUBTITLE.length * 0.035), duration: 0.5 }}
           className="mt-6 text-white/90"
         >
-          📞 <a href="tel:+251929903400" className="hover:text-[#38BDF8]">+251 929 903 400</a>
+          📞 <a href="tel:+251911673365" className="hover:text-[#38BDF8]">+251 911 673 365 / 0910 727 441</a>
         </motion.p>
       </div>
 

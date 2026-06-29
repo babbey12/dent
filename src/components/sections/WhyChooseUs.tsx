@@ -22,7 +22,7 @@ export function WhyChooseUs() {
         >
           <p className="font-sub text-xs uppercase tracking-[0.2em] text-[#0EA5E9]">Why us</p>
           <h2 className="font-display mt-3 text-4xl font-semibold text-[#1A1A2E] md:text-5xl">
-            Why Patients Choose Nejashi Care
+            Why Patients Choose Dr. Assefa Dent
           </h2>
         </motion.div>
 
