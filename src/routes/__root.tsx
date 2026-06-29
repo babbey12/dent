@@ -75,7 +75,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       { title: "Dr. Assefa Dent — Addis Ababa" },
-      { name: "description", content: "Where Specialty Meets Compassion. Advanced specialty dentistry beside Kolfe Keraniyo Court, Addis Ababa." },
+      { name: "description", content: "Where Specialty Meets Compassion. Advanced specialty dentistry in Addis Ababa, Ethiopia." },
       { property: "og:title", content: "Dr. Assefa Dent" },
       { property: "og:description", content: "Where Specialty Meets Compassion." },
       { property: "og:type", content: "website" },

@@ -8,16 +8,16 @@ export const Route = createFileRoute("/contact")({
   head: () => ({
     meta: [
       { title: "Contact Dr. Assefa Dent — Addis Ababa Dental Clinic" },
-      { name: "description", content: "Contact Dr. Assefa Dent — beside Kolfe Keraniyo Court, Addis Ababa. Call +251 911 673 365 / 0910 727 441." },
+      { name: "description", content: "Contact Dr. Assefa Dent — Addis Ababa, Ethiopia. Call +251 911 673 365 / 0910 727 441." },
       { property: "og:title", content: "Contact Dr. Assefa Dent" },
-      { property: "og:description", content: "Beside Kolfe Keraniyo Court, 2nd Floor Behel, Addis Ababa." },
+      { property: "og:description", content: "Addis Ababa, Ethiopia." },
     ],
   }),
   component: ContactPage,
 });
 
 const INFO = [
-  { icon: "📍", title: "Visit Us", lines: ["Beside Kolfe Keraniyo Court", "2nd Floor Behel", "Addis Ababa, Ethiopia"] },
+  { icon: "📍", title: "Visit Us", lines: ["Addis Ababa, Ethiopia"] },
   { icon: "📞", title: "Call Us", lines: ["+251 911 673 365 / 0910 727 441"], href: "tel:+251911673365" },
   { icon: "✉️", title: "Email Us", lines: ["hello@drassefadent.com"], href: "mailto:hello@drassefadent.com" },
   { icon: "🕐", title: "Hours", lines: ["Mon – Sat: 9:00 AM – 6:00 PM", "Sunday: Closed"] },
@@ -151,11 +151,11 @@ function ContactPage() {
             {/* Map */}
             <div>
               <h2 className="font-display text-3xl font-semibold text-[#1A1A2E] md:text-4xl">Find us</h2>
-              <p className="mt-2 font-body text-[#1A1A2E]/60">Beside Kolfe Keraniyo Court, Addis Ababa.</p>
+              <p className="mt-2 font-body text-[#1A1A2E]/60">Addis Ababa, Ethiopia.</p>
               <div className="mt-8 overflow-hidden rounded-2xl border border-[#1A1A2E]/10 shadow-sm">
                 <iframe
                   title="Dr. Assefa Dent location"
-                  src="https://www.google.com/maps?q=Kolfe+Keraniyo+Court,+Addis+Ababa&output=embed"
+                  src="https://www.google.com/maps?q=Addis+Ababa,+Ethiopia&output=embed"
                   className="h-[400px] w-full border-0"
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"

@@ -12,7 +12,7 @@ export const Route = createFileRoute("/appointment")({
       {
         name: "description",
         content:
-          "Book your specialist dental appointment at Dr. Assefa Dent, beside Kolfe Keraniyo Court, Addis Ababa. Same-week slots available.",
+          "Book your specialist dental appointment at Dr. Assefa Dent in Addis Ababa, Ethiopia. Same-week slots available.",
       },
     ],
   }),
