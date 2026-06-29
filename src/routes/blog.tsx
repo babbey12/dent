@@ -6,9 +6,9 @@ import { Footer } from "@/components/Footer";
 export const Route = createFileRoute("/blog")({
   head: () => ({
     meta: [
-      { title: "Dental Health Blog — Nejashi Care" },
-      { name: "description", content: "Expert articles on dental health, cosmetic dentistry, implants, orthodontics, and pediatric care from Nejashi Care specialists." },
-      { property: "og:title", content: "Dental Health Blog — Nejashi Care" },
+      { title: "Dental Health Blog — Dr. Assefa Dent" },
+      { name: "description", content: "Expert articles on dental health, cosmetic dentistry, implants, orthodontics, and pediatric care from Dr. Assefa Dent specialists." },
+      { property: "og:title", content: "Dental Health Blog — Dr. Assefa Dent" },
       { property: "og:description", content: "Insights and tips from our specialty dental team." },
     ],
     links: [{ rel: "canonical", href: "/blog" }],

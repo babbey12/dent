@@ -1,7 +1,7 @@
 import { AnimatePresence, motion } from "framer-motion";
 import { useEffect, useState } from "react";
 
-const LOGO = "https://i.postimg.cc/RVKfBfJg/22114-removebg-preview.png";
+const LOGO = "/logo.png";
 const TAGLINE = "Where Specialty Meets Compassion";
 
 export function LoadingScreen() {
@@ -47,8 +47,8 @@ export function LoadingScreen() {
               animate={{ scale: 1, opacity: 1 }}
               transition={{ type: "spring", stiffness: 180, damping: 18 }}
               src={LOGO}
-              alt="Nejashi Care"
-              className="relative h-24 w-auto"
+              alt="Dr. Assefa Dent"
+              className="relative h-24 w-auto pb-4"
             />
           </div>
           <p className="font-sub mt-8 text-sm uppercase tracking-[0.2em] text-[#0EA5E9] nc-typing-cursor">

@@ -7,19 +7,19 @@ import { Footer } from "@/components/Footer";
 export const Route = createFileRoute("/contact")({
   head: () => ({
     meta: [
-      { title: "Contact Nejashi Care — Addis Ababa Dental Clinic" },
-      { name: "description", content: "Contact Nejashi Care Specialty Dental Clinic — beside Kolfe Keraniyo Court, Addis Ababa. Call +251 929 903 400." },
-      { property: "og:title", content: "Contact Nejashi Care" },
-      { property: "og:description", content: "Beside Kolfe Keraniyo Court, 2nd Floor Behel, Addis Ababa." },
+      { title: "Contact Dr. Assefa Dent — Addis Ababa Dental Clinic" },
+      { name: "description", content: "Contact Dr. Assefa Dent Specialty Dental Clinic — Addis Ababa. Call 0911673365/0910727441." },
+      { property: "og:title", content: "Contact Dr. Assefa Dent" },
+      { property: "og:description", content: "Addis Ababa, Addis Ababa." },
     ],
   }),
   component: ContactPage,
 });
 
 const INFO = [
-  { icon: "📍", title: "Visit Us", lines: ["Beside Kolfe Keraniyo Court", "2nd Floor Behel", "Addis Ababa, Ethiopia"] },
-  { icon: "📞", title: "Call Us", lines: ["+251 929 903 400"], href: "tel:+251929903400" },
-  { icon: "✉️", title: "Email Us", lines: ["hello@nejashicare.com"], href: "mailto:hello@nejashicare.com" },
+  { icon: "📍", title: "Visit Us", lines: ["Addis Ababa, Ethiopia"] },
+  { icon: "📞", title: "Call Us", lines: ["0911673365/0910727441"], href: "tel:0911673365" },
+  { icon: "✉️", title: "Email Us", lines: ["info@drassefadent.com"], href: "mailto:info@drassefadent.com" },
   { icon: "🕐", title: "Hours", lines: ["Mon – Sat: 9:00 AM – 6:00 PM", "Sunday: Closed"] },
 ];
 
@@ -151,10 +151,10 @@ function ContactPage() {
             {/* Map */}
             <div>
               <h2 className="font-display text-3xl font-semibold text-[#1A1A2E] md:text-4xl">Find us</h2>
-              <p className="mt-2 font-body text-[#1A1A2E]/60">Beside Kolfe Keraniyo Court, Addis Ababa.</p>
+              <p className="mt-2 font-body text-[#1A1A2E]/60">Addis Ababa.</p>
               <div className="mt-8 overflow-hidden rounded-2xl border border-[#1A1A2E]/10 shadow-sm">
                 <iframe
-                  title="Nejashi Care location"
+                  title="Dr. Assefa Dent location"
                   src="https://www.google.com/maps?q=Kolfe+Keraniyo+Court,+Addis+Ababa&output=embed"
                   className="h-[400px] w-full border-0"
                   loading="lazy"
