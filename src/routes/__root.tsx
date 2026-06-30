@@ -79,8 +79,6 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { property: "og:title", content: "Dr. Assefa Dent" },
       { property: "og:description", content: "Where Specialty Meets Compassion." },
       { property: "og:type", content: "website" },
-      { property: "og:image", content: "https://i.postimg.cc/zD9W6pvL/1778787203251.png" },
-      { name: "twitter:card", content: "summary_large_image" },
     ],
     links: [
       {
