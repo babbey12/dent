@@ -1,6 +1,6 @@
 import { Link } from "@tanstack/react-router";
 
-const LOGO_URL = "https://i.postimg.cc/RVKfBfJg/22114-removebg-preview.png";
+const LOGO_URL = "/logo.png";
 
 const NAV_LINKS = [
   { label: "Home", to: "/" as const },

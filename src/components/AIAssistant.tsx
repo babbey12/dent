@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 
-const LOGO_URL = "https://i.postimg.cc/RVKfBfJg/22114-removebg-preview.png";
+const LOGO_URL = "/logo.png";
 
 type Msg = { role: "user" | "assistant"; content: string };
 

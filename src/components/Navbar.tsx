@@ -2,7 +2,7 @@ import { Link } from "@tanstack/react-router";
 import { AnimatePresence, motion } from "framer-motion";
 import { useEffect, useState } from "react";
 
-const LOGO = "https://i.postimg.cc/RVKfBfJg/22114-removebg-preview.png";
+const LOGO = "/logo.png";
 
 const links = [
   { to: "/", label: "Home" },

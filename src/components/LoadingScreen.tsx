@@ -1,7 +1,7 @@
 import { AnimatePresence, motion } from "framer-motion";
 import { useEffect, useState } from "react";
 
-const LOGO = "https://i.postimg.cc/RVKfBfJg/22114-removebg-preview.png";
+const LOGO = "/logo.png";
 const TAGLINE = "Where Specialty Meets Compassion";
 
 export function LoadingScreen() {
